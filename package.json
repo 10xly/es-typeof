@@ -1,0 +1,33 @@
+{
+  "name": "es-typeof",
+  "version": "1.0.0",
+  "description": "Ponyfill of built-in `typeof` operator.",
+  "keywords": [
+    "type",
+    "of"
+  ],
+  "homepage": "https://github.com/is-unknown/typeof#readme",
+  "bugs": {
+    "url": "https://github.com/is-unknown/typeof/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/is-unknown/typeof.git"
+  },
+  "license": "Unlicense",
+  "author": "me",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js"
+  },
+  "dependencies": {
+    "@extremejs/utils": "^1.0.0-beta.22",
+    "call-bound": "^1.0.4",
+    "es-object-atoms": "^1.1.1",
+    "extract-stringtag": "^1.0.0",
+    "has-bigints": "^1.1.0",
+    "has-symbols": "^1.1.0",
+    "lodash.includes": "^4.3.0"
+  }
+}
